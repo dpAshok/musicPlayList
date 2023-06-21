@@ -1,0 +1,34 @@
+.list-container {
+  display: flex;
+  list-style-type: none;
+  align-items: center;
+  justify-content: space-between;
+  margin: 20px;
+}
+.image-title-part {
+  display: flex;
+  align-items: center;
+}
+
+.image-title-part img {
+  width: 100%;
+  max-width: 200px;
+}
+.image-title-part p {
+  margin: 10px 20px;
+}
+
+.genre {
+  margin: 10px 20px;
+}
+
+.duration-container {
+  display: flex;
+}
+.duration-container p {
+  margin-right: 30px;
+  font-size: 20px;
+}
+.icon {
+  background-color: transparent;
+}
